@@ -1,2 +1,21 @@
 git add ==> add files to staging area 
-to use git add, 'git add <file_name>
+to use git add, 'git add <file_name>'
+
+use "git rm --cached <file>..." to unstage
+
+git status ==> show status of working directory and staging area
+
+git commit ==> to commit to changes we made to our local directory
+
+git push ==> push changes to remote repo to the command, 
+to use the command 'git push'
+
+to point our local repository to git hub ==> 
+'git remote add origin https://github.com/Ranmi-P/sq15.git'
+
+Initialize our current base branch to main: 'git branch -M main'
+
+<!-- whenever you make changes to your project, follow this process to push to github--!>
+'git add.'
+'git commit -m 'you commit message''
+'git push'
