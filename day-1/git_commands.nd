@@ -1,7 +1,7 @@
 git add ==> add files to staging area 
 to use git add, 'git add <file_name>'
 
-use "git rm --cached <file>..." to unstage
+use 'git rm --cached <file>...' to unstage
 
 git status ==> show status of working directory and staging area
 
@@ -15,7 +15,22 @@ to point our local repository to git hub ==>
 
 Initialize our current base branch to main: 'git branch -M main'
 
-<!-- whenever you make changes to your project, follow this process to push to github--!>
+<!-- whenever you make changes to your project, follow this process to push to github-->
 'git add.'
 'git commit -m 'you commit message''
 'git push'
+
+<!-- to pull changes from github -->
+'git pull' ==> pull changes from github(remote server) to local repo
+
+<!-- branching-->
+## A branch is a new/separate version of the main repository
+'git branch' ==>show all branches
+
+'git branch <branch_name> ==> to create a new branch
+
+'git checkout <branch_name> ==> switch to a branch
+
+to merge new branch into main ==> 'git merge new-branch'
+
+'git log' ==> shows commit history
